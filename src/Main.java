@@ -6,7 +6,7 @@ public class Main {
             int tamanho = 9;
             int[][] vetor = new int[tamanho][tamanho];
             StringBuilder row = new StringBuilder();
-            for(int i = 0;i < vetor[0].length-1;i++){
+            for(int i = 0;i < tamanho -1 ;i++){
                 vetor[i][0] = 1;
                 row.append(vetor[i][0]).append(" ");
                 for(int j = 0; j < i ;j++) {
